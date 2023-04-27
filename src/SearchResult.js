@@ -7,7 +7,9 @@ export default function SearchResult() {
   const [results, setResults] = useState([]);
   const getResult = async () => {
     const json = await (
-      await fetch(`www.thecocktaildb.com/api/json/v1/1/search.php?s=${keyword}`)
+      await fetch(
+        `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${keyword}`
+      )
     ).json();
     setResults(json.drinks);
     console.log(json.drinks);

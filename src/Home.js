@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import CocktailList from "./List";
+import CocktailList from "./CocktailList";
 export default function Home() {
   const [data, setData] = useState([]);
   const getCocktail = async () => {
@@ -30,6 +30,7 @@ export default function Home() {
           key={m.idDrink}
           strDrinkThumb={m.strDrinkThumb}
           strInstructions={m.strInstructions}
+          idDrink={m.idDrink}
         />
       ))}
     </div>
