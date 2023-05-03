@@ -14,15 +14,6 @@ export default function Home() {
     getCocktail();
   }, []);
 
-  const searchCocktail = async () => {
-    const search = await (
-      await fetch(`www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita`)
-    ).json();
-    console.log(search);
-  };
-  useEffect(() => {
-    searchCocktail();
-  }, []);
   return (
     <div>
       {data.map((m) => (
