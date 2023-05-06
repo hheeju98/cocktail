@@ -1,0 +1,46 @@
+.cocktailList_img {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  padding-top: 30px;
+  border-radius: 20%;
+}
+
+.cocktailList_div {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.cocktailList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3개의 열을 생성합니다. */
+  grid-gap: 10px; /* 사진과 사진 사이의 간격을 설정합니다. */
+}
+
+.cocktailList_button {
+  background-color: #005916;
+  border-color: aliceblue;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 10px;
+  color: white;
+}
+.cocktailList_btn {
+  display: flex;
+  margin: auto;
+}
+
+.cocktailList_name {
+  margin: auto;
+  display: flex;
+}
+.name {
+  margin: auto;
+  display: flex;
+  width: 200px;
+}

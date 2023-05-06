@@ -1,8 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "./CocktailList.css";
 
 export default function CocktailList({
   idDrink,
+  strDrink,
   strInstructions,
   strDrinkThumb,
   strIngredient1,
@@ -17,17 +19,24 @@ export default function CocktailList({
   const navigate = useNavigate();
   return (
     <div>
-      <h2>
-        {strInstructions} <br />
-      </h2>
-      <img src={strDrinkThumb} alt={idDrink} />
-      <button
-        onClick={() => {
-          navigate(`detail/${idDrink}`);
-        }}
-      >
-        상세 보기
-      </button>
+      <div className="cocktailList_div">
+        <div className="img">
+          <img src={strDrinkThumb} alt={idDrink} className="cocktailList_img" />
+        </div>
+        <div className="name">
+          <h3 className="cocktailList_name">Name : {strDrink}</h3>
+        </div>
+        <div className="cocktailList_btn">
+          <button
+            className="cocktailList_button"
+            onClick={() => {
+              navigate(`detail/${idDrink}`);
+            }}
+          >
+            Detail
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

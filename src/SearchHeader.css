@@ -1,0 +1,33 @@
+.search_header {
+  background-color: #005916;
+  margin: auto;
+  height: 60px;
+  width: 100%;
+}
+
+.search_form {
+  margin: auto;
+}
+
+.search_input {
+  height: 35px;
+  width: 250px;
+  border-radius: 10px;
+  border-color: #005916;
+}
+.header {
+  display: flex;
+  color: white;
+  padding: 10px;
+  margin: auto;
+}
+
+.search_upper {
+  display: flex;
+  margin: auto;
+}
+
+.header_upper {
+  display: flex;
+  margin: auto;
+}

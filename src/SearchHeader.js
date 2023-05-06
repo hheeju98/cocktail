@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import "./SearchHeader.css";
 
 export default function SearchHeader() {
   const { keyword } = useParams();
@@ -12,15 +13,22 @@ export default function SearchHeader() {
   useEffect(() => setText(keyword || ""), [keyword]);
 
   return (
-    <header>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Search"
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-        />
-      </form>
+    <header className="search_header">
+      <div className="header_upper">
+        <h1 className="header">Everything about Cocktails</h1>
+
+        <div className="search_upper">
+          <form onSubmit={handleSubmit} className="search_form">
+            <input
+              className="search_input"
+              type="text"
+              placeholder="Search"
+              value={text}
+              onChange={(e) => setText(e.target.value)}
+            />
+          </form>
+        </div>
+      </div>
     </header>
   );
 }
