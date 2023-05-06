@@ -26,6 +26,14 @@ export default function SearchResult() {
           key={result.idDrink}
           strDrink={result.strDrink}
           strCategory={result.strCategory}
+          strAlcoholic={result.strAlcoholic}
+          strGlass={result.strGlass}
+          strInstructions={result.strInstructions}
+          strDrinkThumb={result.strDrinkThumb}
+          strIngredient1={result.strIngredient1}
+          strIngredient2={result.strIngredient2}
+          strIngredient3={result.strIngredient3}
+          strIngredient4={result.strIngredient4}
         />
       ))}
     </div>

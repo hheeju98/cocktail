@@ -4,6 +4,7 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Detail from "./Detail";
 import SearchResult from "./SearchResult";
+import Error from "./Error";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +12,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
   { path: "detail/:idDrink", element: <Detail /> },
-  { path: "searchResult/:keyword", element: <SearchResult /> },
+  {
+    path: "searchResult/:keyword",
+    element: <SearchResult />,
+    errorElement: <Error />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
