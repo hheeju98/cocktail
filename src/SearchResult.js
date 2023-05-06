@@ -16,7 +16,7 @@ export default function SearchResult() {
   };
   useEffect(() => {
     getResult();
-  }, []);
+  });
 
   return (
     <div>
