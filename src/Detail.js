@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import DetailList from "./DetailList";
 import { useParams } from "react-router-dom";
 
-export default function Detail({ drinks }) {
+export default function Detail() {
   const { idDrink } = useParams();
   const [data, setData] = useState([]);
   const getDetail = async () => {
@@ -17,7 +17,7 @@ export default function Detail({ drinks }) {
   };
   useEffect(() => {
     getDetail();
-  }, []);
+  });
 
   return (
     <div>
