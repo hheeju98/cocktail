@@ -22,7 +22,18 @@ export default function Detail({ drinks }) {
   return (
     <div>
       {data.map((m) => (
-        <DetailList key={m.idDrink} strInstructions={m.strInstructions} />
+        <DetailList
+          key={m.idDrink}
+          strInstructions={m.strInstructions}
+          strDrink={m.strDrink}
+          strCategory={m.strCategory}
+          strGlass={m.strGlass}
+          strIngredient1={m.strIngredient1}
+          strIngredient2={m.strIngredient2}
+          strIngredient3={m.strIngredient3}
+          strIngredient4={m.strIngredient4}
+          strDrinkThumb={m.strDrinkThumb}
+        />
       ))}
     </div>
   );
