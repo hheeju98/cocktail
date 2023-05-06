@@ -15,7 +15,7 @@ export default function SearchHeader() {
   return (
     <header className="search_header">
       <div className="header_upper">
-        <h1 className="header">Everything about Cocktails</h1>
+        <h1 className="header">Search Your Favorite Cocktail</h1>
 
         <div className="search_upper">
           <form onSubmit={handleSubmit} className="search_form">

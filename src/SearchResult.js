@@ -20,7 +20,7 @@ export default function SearchResult() {
 
   return (
     <div>
-      <h3>검색 결과{keyword}</h3>
+      <h2>검색 결과 : {keyword}</h2>
       {results.map((result) => (
         <ResultList
           key={result.idDrink}

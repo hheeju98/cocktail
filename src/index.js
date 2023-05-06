@@ -10,6 +10,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Error />,
   },
   { path: "detail/:idDrink", element: <Detail /> },
   {

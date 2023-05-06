@@ -1,3 +1,5 @@
+import "./ResultList.css";
+
 export default function ResultList({
   strDrink,
   idDrink,
@@ -13,16 +15,18 @@ export default function ResultList({
 }) {
   return (
     <div>
-      <img src={strDrinkThumb} alt={idDrink} />
-      <h3>Name : {strDrink}</h3>
-      <h3>Category : {strCategory}</h3>
-      <h3>Info : {strAlcoholic}</h3>
-      <h3>Glass : {strGlass}</h3>
-      <h3>Instructions : {strInstructions}</h3>
-      <h3>
-        Ingredients : {strIngredient1}, {strIngredient2}, {strIngredient3},
-        {strIngredient4}
-      </h3>
+      <img src={strDrinkThumb} alt={idDrink} className="resultList_img" />
+      <div className="resultList_element">
+        <h3>Name : {strDrink}</h3>
+        <h3>Category : {strCategory}</h3>
+        <h3>Info : {strAlcoholic}</h3>
+        <h3>Glass : {strGlass}</h3>
+        <h3>Instructions : {strInstructions}</h3>
+        <h3>
+          Ingredients : {strIngredient1}, {strIngredient2}, {strIngredient3},
+          {strIngredient4}
+        </h3>
+      </div>
     </div>
   );
 }
