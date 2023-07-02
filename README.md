@@ -21,7 +21,7 @@ https://beautiful-semifreddo-4038af.netlify.app/
 
 
 ## :page_facing_up: Summary
-The Cocktail DB에서 제공하는 API를 이용해 리액트로 처음 제작했던 페이지로 API정보를 가져와 칵테일 정보를 보여주는 페이지 입니다. API를 사용하는 방법에 대해 이해하는 계기가 되었으며 로딩중 페이지와 에러 페이지를 함께 구현하여 완성도를 높혔습니다. 개발 도중 API가 동작하지 않아 The Cocktail DB 운영자에게 메일을 보내 Rhe Cocktail DB의 디스크 메모리가 일시적으로 부족했다는 답변을 받기도 했습니다.
+The Cocktail DB에서 제공하는 API를 이용해 리액트로 처음 제작했던 페이지로 API정보를 가져와 칵테일 정보를 보여주는 페이지 입니다. API를 사용하는 방법에 대해 이해하는 계기가 되었으며 로딩중 페이지와 에러 페이지를 함께 구현하여 완성도를 높혔습니다. 개발 도중 API가 동작하지 않아 The Cocktail DB 운영자에게 메일을 보내 The Cocktail DB의 디스크 메모리가 일시적으로 부족했다는 답변을 받기도 했습니다.
 
 ​
 ​
