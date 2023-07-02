@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+### :triangular_flag_on_post: Deployment
+https://beautiful-semifreddo-4038af.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## :star2: About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+주요기능
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 칵테일 정보 상세보기
 
-### `npm test`
+- 칵테일  검색
+  
+- The cocktailDB Api 이용
+  
+- netlify를 이용한 페이지 호스팅
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :page_facing_up: Summary
+The Cocktail DB를 통해 리액트로 처음 제작했던 페이지로 API정보를 가져와 칵테일 정보를 보여주는 페이 입니다. API를 사용하는 방법에 대해 이해하는 계기가 되었으며 로딩중 페이지와 에러 페이지를 함께 구현하여 완성도를 높혔습니다. 개발 도중 API가 동작하지 않아 The Cocktail DB 운영자에게 메일을 보내 Rhe Cocktail DB의 디스크 메모리가 일시적으로 부족했다는 답변을 받기도 했습니다.
 
-### `npm run eject`
+​
+​
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :notebook_with_decorative_cover: Table of Contents
+UI나 디자인적으로 부족한 페이지라고 생각합니다. 이용자에게 더 매력적으로 보일 수 있는 디자인을 생각하고 적용 할 수 있는 능력을 더욱 함양하는 것이 필요하다고 생각하는 계기가 되었습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+​
+​
